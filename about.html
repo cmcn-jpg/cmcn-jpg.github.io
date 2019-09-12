@@ -5,24 +5,28 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CMCN</title>
     <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" media="screen and (min-width:800px)" type="text/css" href="css/desktop-typography.css">
+    <link rel="stylesheet" media="screen and (max-width:500px)" type="text/css" href="css/mobile-typography.css">
+    <link rel="stylesheet" media="screen and (min-width:800px)" type="text/css" href="css/desktop-layout.css">
+    <link rel="stylesheet" media="screen and (max-width:500px)" type="text/css" href="css/mobile-layout.css">
   </head>
   <body>
-<div id="header">
-  <div class="container">
-    <ul id="header-nav">
-      <li><a class="header-title" href="index.html">CMCN</a></li>
-      <li><a href="about.html" class="active-tab">About</a></li>
-      <li><a href="resume.html">Resume</a></li>
-      <li><a href="mailto:jacob.charles@aol.com">Contact</a></li>
-    </ul>
-  </div>
-</div>
-<div id="content">
-  <div class="container">
-    <div class="about">
+<header class="header">
+  <section class="container">
+    <nav class="header-nav">
+      <a class="header-title" href="index.html">CMCN</a>
+      <a href="about.html" class="active-tab">About</a>
+      <a href="resume.html">Resume</a>
+      <a href="mailto:jacob.charles@aol.com">Contact</a>
+    </nav>
+  </section>
+</header>
+<main id="content">
+  <section class="container">
+    <section class="about centered">
       <h1 class="subtitle">General</h1>
       <button class="accordion">Skills</button>
-      <div class="panel">
+      <section class="panel">
       <ul>
         <li>Basic CS Training</li>
         <li>Advanced Webpage Training</li>
@@ -30,9 +34,9 @@
         <li>Algebra through Trigonometry</li>
         <li>Calculus Independant Study</li>
       </ul>
-      </div>
+    </section>
       <button class="accordion">Work Experience</button>
-      <div class="panel">
+      <section class="panel">
           <p><strong>Little Caesars</strong></p>
           <ul>
             <li>Crew Leader</li>
@@ -54,17 +58,21 @@
              <li>Assistant Manager</li>
               <ul type="circle">
                 <li>August 15th 2019 - Present</li>
-                <li>While many days i did run the store on my own and had a large role in store management, the basic tasks as an assistant manager were to take charge of employees, complete manager training, keep track of store finances, open and close the store, and have at least a good knowledge of every station and function in the store. </li>
+                <li>While many days i did run the store on my own and had a
+                   large role in store management, the basic tasks as an assistant manager
+                   were to take charge of employees, complete manager training, keep track
+                   of store finances, open and close the store, and have at least a good
+                   knowledge of every station and function in the store. </li>
                 <li>Payrate: 9.50-10/h</li><br>
               </ul>
           </ul>
-      </div>
+      </section>
       <button class="accordion">Interests</button>
-      <div class="panel">
+      <section class="panel">
         <p>I, like most normal people, am interested in a large variety of things, like food. More importantly though I really enjoy photography and exploring. I spend most of my time at my computer and I love making webpages and apps.</p>
-        </div>
+      </section>
         <button class="accordion">Courses Taken</button>
-        <div class="panel">
+        <section class="panel">
         <p>This list is by no means complete but I will do my best to list as many as possible</p>
          <ul>
          	<li>Core Classes</li>
@@ -119,10 +127,10 @@
          	</ul>
          </ul>
        </ul>
-    </div>
+    </section>
           <h1 class="subtitle">Concerning CS</h1>
           <button class="accordion">Skills</button>
-          <div class="panel">
+          <section class="panel">
             <p><strong>Language Related Skills</strong></p>
             <ul>
               <li>HTML - <em>expert</em></li>
@@ -137,13 +145,13 @@
               <li>PHP - <em>very basic</em></li>
 
             </ul>
-          </div>
+          </section>
           <button class="accordion">Work Experience</button>
-          <div class="panel">
+          <section class="panel">
             <p>Sorry, this tab is currently empty</p>
-          </div>
+          </section>
           <button class="accordion">Courses Taken</button>
-          <div class="panel">
+          <section class="panel">
             <p>School Curriculum</p>
             <ul>
               <li>CS Discoveries</li>
@@ -187,30 +195,30 @@
               </ul>
               <li>Browser Tracking</li>
             </ul>
-      </div>
+      </section>
       <button class="accordion">More</button>
-      <div class="panel">
+      <section class="panel">
        <p>Sorry, this tab is currently empty</p>
-        </div>
-  </div>
-</div>
-</div>
-<div class="footer">
-  <div class="container">
-    <div class="column">
+     </section>
+  </section>
+</section>
+</main>
+<section class="footer">
+  <section class="container">
+    <section class="column">
       <h4>My Links</h4>
       <p>
         <a href="https://www.facebook.com/jacob.charles.712">Facebook</a>
         <br>
         <a href="https://www.instagram.com/cmcn.jpg/">Instagram</a>
       </p>
-    </div>
-    <div class="column">
+    </section>
+    <section class="column">
       <h4>My Story</h4>
       <p>I'm a prospective CS major with good ties to the community, and even though that sounds like i'm writing a criminal defense basis, I actually want to make games, apps and webpages for a living.</p>
-    </div>
-  </div>
-</div>
+    </section>
+  </section>
+</section>
 <script src="js/accordion-tabs.js"></script>
 </body>
 </html>

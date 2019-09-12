@@ -5,25 +5,29 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CMCN</title>
     <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" media="screen and (min-width:800px)" type="text/css" href="css/desktop-typography.css">
+    <link rel="stylesheet" media="screen and (max-width:500px)" type="text/css" href="css/mobile-typography.css">
+    <link rel="stylesheet" media="screen and (min-width:800px)" type="text/css" href="css/desktop-layout.css">
+    <link rel="stylesheet" media="screen and (max-width:500px)" type="text/css" href="css/mobile-layout.css">
   </head>
   <body>
-<div id="header">
-  <div class="container">
-    <ul id="header-nav">
-      <li><a class="header-title active-tab" href="index.html">CMCN</a></li>
-      <li><a href="about.html">About</a></li>
-      <li><a href="resume.html">Resume</a></li>
-      <li><a href="mailto:jacob.charles@aol.com">Contact</a></li>
-    </ul>
-  </div>
-</div>
-<div id="content">
+<header class="header">
+  <section class="container">
+    <nav class="header-nav">
+      <a class="header-title active-tab" href="index.html">CMCN</a>
+      <a href="about.html">About</a>
+      <a href="resume.html">Resume</a>
+      <a href="mailto:jacob.charles@aol.com">Contact</a>
+    </nav>
+  </section>
+</header>
+<main id="content" class="centered">
   <div class="container">
     <div class="about">
       <div class="about-author">
         <img src="img/cmcn.jpg">
         <div class="overlay">
-          <div class="overlay-text">CMCN</div>
+          <div class="overlay-text centered">CMCN</div>
         </div>
       </div>
       <h1 class="about-title">About Me</h1>
@@ -53,8 +57,8 @@
       </div>
     </div>
   </div>
-</div>
-<div class="footer">
+</main>
+<footer class="footer">
   <div class="container">
     <div class="column">
       <h4>My Links</h4>
@@ -69,6 +73,6 @@
       <p>I'm a prospective CS major with good ties to the community, and even though that sounds like i'm writing a criminal defense basis, I actually want to make games, apps and webpages for a living.</p>
     </div>
   </div>
-</div>
+</footer>
 </body>
 </html>
