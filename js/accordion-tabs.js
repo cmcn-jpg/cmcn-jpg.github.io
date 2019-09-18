@@ -11,10 +11,10 @@ for (i = 0; i < acc.length; i++) {
     var panel = this.nextElementSibling;
     if (panel.style.display === "block") {
       panel.style.display = "none";
-	  panel.style.height = "0";
+	    panel.style.height = "0";
     } else {
       panel.style.display = "block";
-	  panel.style.height = "100%";
+	    panel.style.height = "100%";
     }
   });
 }

@@ -1,3 +1,7 @@
+body {
+  background-image: url(../img/whiteHDBG.jpg);
+}
+
 .header {
   background-color: #082b24;
 }
@@ -9,7 +13,7 @@
 }
 
 .about-author img {
-  border-radius: 10%;
+  border-radius: 50%;
 }
 
 .footer {
@@ -17,27 +21,30 @@
 }
 
 .accordion {
-  background-color: #e2e2e2;
+  background-color: #222;
   border: none;
   transition-duration: 2s;
 }
 
 .panel {
-  background-color: white;
+  background-color: #222;
   display: none;
   overflow: hidden;
+  opacity: 0.75;
+  transition-duration: 2s;
 }
 
 .active, .accordion:hover {
-  background-color: #ccc;
+  background-color: #000;
   transform: scaleX(1.1);
+  border-radius: 10px;
 }
 
 .overlay {
     opacity: 0;
     transition: .5s ease;
     background-color: #484d4eb3;
-    border-radius: 10%;
+    border-radius: 50%;
 }
 
 .about-author:hover .overlay {
@@ -52,4 +59,10 @@
 
 .resume-box > iframe {
   resize: vertical;
+}
+
+.about-content {
+  background-color: #222;
+  opacity: 0.75;
+  border-radius: 20px;
 }

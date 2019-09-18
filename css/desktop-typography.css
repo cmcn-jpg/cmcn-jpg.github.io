@@ -53,6 +53,7 @@ h1, h2, h3, h4 {
 
 .accordion {
   font-size: 16px;
+  color: white;
 }
 
 .panel > ul {
@@ -63,4 +64,19 @@ h1, h2, h3, h4 {
   color: white;
   font-size: 20px;
   letter-spacing: 0.5em;
+}
+
+.about-content p {
+  opacity: 1;
+  color: white;
+}
+
+.panel ul {
+  opacity: 1;
+  color: white;
+}
+
+.panel p {
+  opacity: 1;
+  color: white;
 }
