@@ -1,1 +1,0 @@
-var slideIndex = 0;
