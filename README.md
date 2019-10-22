@@ -1,2 +1,2 @@
 # cmcn-jpg.github.io
-personal-website
+personal.html
